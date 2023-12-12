@@ -1,0 +1,230 @@
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nihat Berke Çağlar</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&display=swap" rel="stylesheet">
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+ 
+        html{
+            font-size:62.5%;/*1rem = 10px*/
+        }
+ 
+        body,h1,h2,ul{
+            margin:0;
+            padding:0;
+            
+        }
+        ul{
+            list-style: none;
+        }
+ 
+        /*******************/
+        body{
+            font-family: 'Nunito Sans', sans-serif;
+        }
+        .arkaplan{
+            background-color: #25373D;
+        }
+        .kapsayici{
+            width: 960px;
+            margin:0 auto;
+        }
+        
+        .ust{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            min-height: 200px;
+        }
+ 
+        .ust .logo{
+            text-align: center;
+            color:#fff;
+        }
+        .ust .logo h1{
+            font-size:4rem;
+            letter-spacing: .5rem;
+        }
+ 
+        .ust .logo h1::first-letter{
+            color:#FCB941;
+        }
+ 
+        .ust .logo h1:hover::first-letter{
+            background-color: #FCB941;
+            color:#25373D;
+        }
+ 
+        .ust .logo h2{
+            font-size:2.4rem;
+        }
+ 
+        
+ 
+        
+ 
+        .ust .menu ul{
+            display: flex;
+        }
+        .ust .menu ul li{
+            margin:0 1rem;
+        }
+ 
+        .ust .menu ul a{
+            color:#fff;
+            text-decoration: none;
+            font-size:1.8rem;
+            padding:0 2rem;
+        }
+        .ust .menu ul a:hover{
+            color:#FCB941;
+        }
+ 
+        .orta .bolum1{
+            margin-top:20px;
+            border:10px solid #25373D;
+            padding:20px;
+        }
+ 
+        .orta .bolum1 img{
+            display: block;
+            width: 100%;
+        }
+ 
+        .orta .bolum2{
+            margin-top:20px;
+            display: flex;
+            justify-content: space-between;
+        }
+        .orta .bolum2 .kutu{
+            flex-basis: 290px;
+        }
+ 
+        .orta .bolum2 .kutu h2{
+            font-size: 2rem;
+        }
+ 
+        .orta .bolum2 .kutu p{
+            font-size: 1.6rem;
+        }
+ 
+        .orta .bolum3{
+            display: flex;
+            justify-content: space-between;
+            gap:20px;
+        }
+ 
+        .orta .bolum3 h1{
+            font-size:2.5rem;
+        }
+ 
+        .orta .bolum3 p{
+            font-size:1.6rem;
+        }
+ 
+        .alt{
+            margin-top:20px;
+            padding:20px 0;
+            display: flex;
+            gap:20px;
+        }
+        .alt .baglanti{
+            flex-grow: 1;
+        }
+ 
+        .alt .baglanti ul li{
+            border-bottom:dotted 1px #FCB941;
+            margin:5px 0;
+        }
+ 
+        .alt .baglanti a{
+            font-size:1.6rem;
+            text-decoration: none;
+            color:#FCB941;
+        }
+ 
+ 
+        .cizgi{
+            border-top:dotted 1px #FCB941;
+            margin:20px 0;
+        }
+ 
+        .alt-kenar-10{
+            border-bottom:10px solid #FCB941;
+        }
+        
+    </style>
+</head>
+<body>
+ 
+    <!-- sayfa üstü-->
+    <div class="arkaplan alt-kenar-10">
+        <div class="ust kapsayici">
+            <div class="logo">
+                <h1>Web Tasarım</h1>
+                <h2>Akdeniz Universitesi</h2>
+            </div>
+            <div class="menu">
+                <ul>
+                    <li><a href="#">Ana Sayfa</a></li>
+                    <li><a href="#">İletişim</a></li>
+                    <li><a href="#">Medya</a></li>
+                    <li><a href="#">Hakkimizda</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+ 
+    <!-- sayfa ortası-->
+    <div class="orta kapsayici">
+        <div class="bolum1">
+            <img src="https://www.imf.org/-/media/Images/IMF/Blog/Migrated/shutterstockallstarsGlobeonbluebackground2197866611024x600.ashx" alt="Kapak resmi">
+        </div>
+        <div class="bolum2">
+            <div class="kutu">
+                <img src="https://ec.europa.eu/eurostat/cache/digpub/european_economy_2020/images/economy_cover.jpg" alt="ekonomi" width="290" height="180" >
+                <h2>Büyüme Ve Gelişme</h2>
+                <p>Bir ülkenin GSYH’sinin büyüklüğünün yanı sıra dünya ekonomisinden aldığı pay önemli bir gösterge. Türkiye’nin milli geliri 1980’de 96,6 milyar dolar iken dünya ekonomisin büyüklüğü 11,24 trilyon dolardı. </p>
+            </div>
+            <div class="kutu">
+                <img src="https://imgs.stargazete.com/imgsdisk/2023/08/17/yeni-ekonomi-yonetiminin--480_2.jpg" alt="ekonomi" width="290" height="180">
+                <h2>Sektörel Performans</h2>
+                <p>Türkiye ekonomisi, geniş bir yelpazede faaliyet gösteren dinamik sektörlere sahip karma bir yapıya sahiptir. 2022 itibariyle, Gayri Safi Yurtiçi Hasıla (GSYH) büyüme hızı %10'un üzerinde seyretmiş, bu da ekonominin sağlamlığını ve potansiyelini yansıtmıştır. </p>
+            </div>
+            <div class="kutu">
+                <img src="https://cf-images.us-east-1.prod.boltdns.net/v1/static/5392214295001/eb3d0de8-87b6-4169-8315-75dd66a27538/b187d760-4cc8-4347-b9af-f8c8f3a70c12/1280x720/match/image.jpg" alt="ekonomi"width="290" height="180" >
+                <h2>Enflasyon ve Para Politikası</h2>
+                <p>Ancak, enflasyon oranları yüksek seyretmiş, bu durum mali disiplini zorlamıştır. Ticaret dengesi, enerji ithalatındaki artış nedeniyle genişlemiş, cari açık riskini artırmıştır. Merkez Bankası, politika faiz oranları ve rezerv opsiyon katsayıları üzerindeki değişikliklerle para politikasını yöneterek, ekonomik istikrarı sağlama çabasındadır. </p>
+            </div>
+        </div>
+        <div class="cizgi"></div>
+        <div class="bolum3">
+            <div class="icerik">
+                <h1>Yatırım Ortamı ve Rekabet Gücü</h1>
+                <p>2021 yılında dünyanın en büyük 21'inci ekonomisi olan Türkiye'nin, ekonomik göstergelerde yaşanan negatif gelişmeler nedeniyle 2023 yılında 23'üncü sıraya kadar gerilemesi bekleniyor. IMF verilerine göre Türkiye, 2003’ten bu yana ilk kez en büyük 20 ekonominin dışında kaldı.</p>
+                <p>Sıralama dışında milli gelir seviyesine bakıldığında ise Türkiye’nin GSYH’si 2021’de 806,8 milyar Amerikan doları oldu. 1980’den bu yana en yüksek GSYH 2013’te 957,5 milyar dolar ile görülmüştü1980’deki milli geliri 96,6 milyar dolar olan Türkiye’nin 2002’deki GSYH’si ise 240,2 milyar dolardı.Öte yandan, bir ülkenin GSYH’sinin büyüklüğünün yanı sıra dünya ekonomisinden aldığı pay önemli bir gösterge. Türkiye’nin milli geliri 1980’de 96,6 milyar dolar iken dünya ekonomisin büyüklüğü 11,24 trilyon dolardı.
+
+2021’de Türkiye’nin GSYH’si 806,8 milyar dolara dünya ekonomisinin büyüklüğü ise 96,29 trilyon dolara kadar çıktı. 1980-2021 arası Türkiye’nin GSYH’si yüzde 735 artarken dünya ekonomisi yüzde 757 büyüdü.</p>
+<video width="1000" height="300" controls>
+    <source src="video.MOV" type="video/mp4" />
+            </div>
+            <div class="gorsel">
+            </div>
+        </div>
+    </div>  
+    <!-- sayfa altı-->  
+    <div class="arkaplan">
+        <div class="alt kapsayici">
+            <div class="baglanti">
+                <html>         
+<p> Copyright &copy;Nihat Berke Çağlar Hakları Saklıdır, Çalarsan Süründürürüm! </p> 
+</html>            
+</body>
+</html>
